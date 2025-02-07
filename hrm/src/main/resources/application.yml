@@ -13,3 +13,13 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    org.springframework: TRACE
+    org.springframework.security: DEBUG
+
+#server:
+#  servlet:
+#    session:
+#      timeout: 30s
